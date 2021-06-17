@@ -1,0 +1,45 @@
+*
+
+#jumbotron{
+    text-align: center;
+}
+nav {
+    
+    text-align: center;
+    display: block; 
+     
+}
+
+nav a{
+    margin: 5px;
+    color: black;
+    
+}
+     
+#navbarDropdownButton{
+    text-align: right;
+    position: inherit;
+}
+
+#navbarDropdownMenu{
+    text-align: center;
+    float: right;
+}
+
+.blue-mode
+{
+    background-color: royalblue;
+    color: black;
+}
+
+.red-mode
+{
+    background-color: red;
+    color: white;
+}
+
+.green-mode
+{
+    background-color: greenyellow;
+    color: black;
+}

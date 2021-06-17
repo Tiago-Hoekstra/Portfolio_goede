@@ -1,0 +1,63 @@
+* 
+.main-container
+{
+    text-align: center;
+}
+
+
+body
+{
+    background-color: lightslategray;
+    color: white;
+    min-height: 1000px;
+
+}
+
+#jumbotron
+{
+    text-align: center; 
+}
+
+.blue-mode
+{
+    background-color: royalblue;
+    color: black;
+}
+
+.red-mode
+{
+    background-color: red;
+    color: white;
+}
+
+.green-mode
+{
+    background-color: greenyellow;
+    color: black;
+}
+
+nav {
+    background-color: lawngreen;
+    text-align: center;
+}
+
+nav a{
+    float: left;
+    color: black;
+    margin-right: 30px; 
+}
+     
+#navbarDropdownButton{
+    float:right;
+}
+
+#navbarDropdownMenu{
+    float:right;
+    text-align: center;
+}
+#introductie{
+    border: 10px;
+}
+
+ 
+
