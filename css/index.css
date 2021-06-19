@@ -8,7 +8,7 @@
 body
 {
     background-color: lightslategray;
-    color: white;
+    color: black;
     min-height: 1000px;
 
 }
@@ -20,18 +20,21 @@ body
 
 .blue-mode
 {
-    background-color: royalblue;
-    color: black;
+    background-image: linear-gradient(red,blue);
+    background-color: rgb(133, 151, 206);
+    color: white;
 }
 
 .red-mode
 {
-    background-color: red;
+    background-image:linear-gradient(yellow, red);
+    background-color: rgb(165, 15, 15);
     color: white;
 }
 
 .green-mode
 {
+    background-image: linear-gradient(lightgreen, yellow);
     background-color: greenyellow;
     color: black;
 }
@@ -55,8 +58,9 @@ nav a{
     float:right;
     text-align: center;
 }
-#introductie{
-    border: 10px;
+
+.button{
+    background-color: black;
 }
 
  
