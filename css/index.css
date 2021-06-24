@@ -1,6 +1,4 @@
 * 
-
-
 body {
     background-color: lightslategray;
     color: black;
@@ -29,7 +27,6 @@ body {
     color: black;
 }
 
-
 nav a {
     color: black;
     margin-right: 30px;
@@ -51,7 +48,6 @@ nav a {
     
     text-align: center;
 }
-
 
 .rekentool-container {
     width: 205px;
@@ -117,7 +113,7 @@ input.fuel-price {
     height: 100px;
     width: 300px;
     left: 1200px;
-    top: 300px;
+    top: 250px;
     border-radius: 10px;
     background-color: inherit ;
     position: absolute;
@@ -132,11 +128,10 @@ input.fuel-price {
 .rekentool-info {
     position: absolute;
     height: 300px;
-    width: 600px;
-    top: 300px;
+    width: 500px;
+    top: 250px;
     left: 50px;
     color: inherit;
-
 }
 
 .contact{
@@ -167,6 +162,7 @@ input.fuel-price {
     border-right: hidden;
     border-bottom-color:inherit;   
 }
+
 .message{
     width: 500px;
     height: 100px;
@@ -183,6 +179,19 @@ input.fuel-price {
     border-radius: 20px;
     border:hidden;
     background-color: inherit;
+}
+
+.about-text {
+    position: absolute;
+    top: 200px;
+}
+
+.selfie {
+    position: absolute;
+    left: 1000px;
+    top: 1px;
+    border-radius: 5px;
+   
 }
 
 
