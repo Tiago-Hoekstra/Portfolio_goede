@@ -24,3 +24,4 @@ blueButton.addEventListener("click", () => {
 	body.classList.toggle("blue-mode");
 });
 
+	

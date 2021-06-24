@@ -11,7 +11,7 @@
     <body>
     <div class="main-contianer">
         <div id= "jumbotron" class="bg-light py-3 shadow text-dark">
-            <h1>Tiago's Portfolio</h1>
+            <h1>Tiago's Mathtool</h1>
         </div>
         <div class="container">
             <div class="row bg">
@@ -21,8 +21,8 @@
                             <a class="shadow" href="index.html">Portfolio</a>
                         </ul>
                         <ul>
-                            <a class="shadow" href="about.html">About me</a>
-                        </ul> 
+                            <a class="shadow" href="portfolio.html">About me</a>
+                        </ul>
                         <ul>
                             <a class="shadow" href="mathtool.html">Mathtool</a>
                         </ul>
@@ -44,8 +44,63 @@
                 </div>
             </div>
         </div>
+        <div class="rekentool-container">
+            <div class="rekentool">
+                <input type="text" class="distance shadow" placeholder="Kilometers" >  
+                <input type="text" class="fuel-usage shadow" placeholder="12">
+                <input type="text" class="fuel-price shadow mb-2" placeholder="1.234">
+                <button class="calculate">Calculate</button>
+                <div class="result"></div>
+            </div>
+        </div>
+        <div>
+            <table class="gasoline-prices">
+                <tr>
+                    <th>Country</th>
+                    <th>Euro 95</th>
+                    <th>Diesel</th>
+                </tr>
+                <tr>
+                    <td>Belgium</td>
+                    <td>1.469</td>
+                    <td>1.473</td>
+                </tr>
+                <tr>
+                    <td>Germany</td>
+                    <td>1.502</td>
+                    <td>1.361</td>
+                </tr>
+                <tr>
+                    <td>Holland</td>
+                    <td>1.774</td>
+                    <td>1.410</td>
+                </tr>
+                <tr>
+                    <td>Luxembourg</td>
+                    <td>1.307</td>
+                    <td>1.203</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+<pre class="rekentool-info">
+Hello, this is my mathtool.
+It calculates the amount of gas you need and how much it is going
+to cost to travel those kilometers.
+I made this with Javascript for a school project it took me about 2 hours
+for the Javascript and about 4 hours for the CSS (that is a styling program).
+The gas prices for the benelux are displayed at the right side of
+the screen and get updated once a month.
+For the calculator to work you will need to know 2 things:
+1. How many kilometers you want to drive.
+2. How much kilometers your car can drive on one liter gasoline.
+If you know all that you can fill it in and add the gasoline prices
+then the calculator will tel you how much it is going to cost in euros.
+</pre>
+        </div>
     </div>
     <script src="js/main.js"></script>
+    <script src="js/rekentool.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
     crossorigin="anonymous"></script>
