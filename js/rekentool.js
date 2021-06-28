@@ -15,7 +15,6 @@ if (buttonCalculate){
 
 function calculate(){
     let result = (inputFieldDistance.value / inputFieldFuelUsage.value) * inputFieldFuelPrice.value;
-    outputResult.textContent = result;
-    console.log(result);
+    return result;
 }
 

@@ -2,7 +2,7 @@
 body {
     background-color: lightslategray;
     color: black;
-    min-height: 750px;;
+    min-height: 750px;
 }
 
 #jumbotron {
@@ -38,7 +38,7 @@ nav a {
 }
 
 nav :hover {
-    color: inherit;
+    color: white;
     text-decoration: none;
     background-color: inherit;
 }
@@ -197,6 +197,22 @@ input.fuel-price {
     top: 1px;
     border-radius: 5px;
 }
+
+.welcome-text {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    width: 1000px;
+    height: 600px;
+    font-size: 80px;
+    text-align: center;
+    align-self: center;
+    color:white;
+    opacity: 70%;
+    
+}
+
+
 
 .footer {
     position: absolute;
